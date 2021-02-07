@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Redis Labs Documentation Center"
+title = "Obmq Documentation Center"
 theme = "docdock"
 assetDir = "static"
 # themesdir = "../.."
@@ -20,7 +20,7 @@ relativeURLs = true
 # title = "Documentation for Hugo docDock"
 # weight = 1
 # languageName = "English"
-# 
+#
 # [Languages.fr]
 # title = "Documentation du thème docDock"
 # weight = 2

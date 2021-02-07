@@ -1792,7 +1792,7 @@ ul.footer-action li a:hover {
 
 p.source-org.copyright {
   width: 50%;
-  margin: 0 !important;
+  margin: 0 auto !important;
   padding-bottom: 14px!important;
   font-weight: 300;
   font-size: 14px;

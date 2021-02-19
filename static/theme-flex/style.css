@@ -501,7 +501,7 @@ body {
   transition: all 0.3s ease;
 
   background-color: #fff;
-  color: #354253;
+  color: #24292e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -847,7 +847,7 @@ section a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: #354253;
+  color: #24292e;
 }
 #navigation a i {
   /* font-size: 2em; */
@@ -1110,7 +1110,7 @@ section.page {
 article section.page h1:first-of-type {
   margin: 5rem 0rem;
   text-align: left;
-  color: #354253;
+  color: #24292e;
   font-weight: 700;
   font-size: 3rem;
   line-height: 3.45rem;
@@ -1211,7 +1211,13 @@ article section.page code {
 article section.page p > code,
 article section.page li code,
 article section.page table code {
-  padding: 0 0.25rem; }
+  background-color: #fff;
+  border: 1px solid #e1e1e8;
+  color: #009;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  padding: 0 0.25rem;
+}
 
 /* Code source and copy */
 article section.page pre {
@@ -1302,7 +1308,7 @@ nav#toc ul li {
   font-size: 1rem;
 }
 .nav-links-footer a {
-  color: #354253;
+  color: #24292e;
 }
 .nav-links-footer-left span {
   font-weight: 700;
@@ -1809,7 +1815,7 @@ div.notices {
   position: relative; }
 
 .anchor {
-  color: #354253;
+  color: #24292e;
   font-size: 3.5em;
   cursor: pointer;
   visibility: hidden;
@@ -2048,7 +2054,7 @@ nav#toc > ul > li > ul > li:last-child {
   margin-bottom: 0;
 }
 .go-top-link a {
-  color: #354253;
+  color: #24292e;
   font-size: 16px;
   transition: all 200ms;
 }
@@ -2133,7 +2139,7 @@ footer #navModal {
   /* display: flex; */
   border-left: 1px solid;
   padding-left: 20px;
-  color: #354253;
+  color: #24292e;
 }
 header #navModal {
   width: 100%;
@@ -3038,7 +3044,7 @@ article section.page table.hot-topics-table td {
 }
 
 article section.page table.hot-topics-table td a {
-  color: #354253;
+  color: #24292e;
   text-decoration: underline;
 }
 

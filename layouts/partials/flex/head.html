@@ -6,7 +6,13 @@
       {{- partial "canonical-url" . | safeHTML -}}
       {{ hugo.Generator }}
       <title>{{ .Title }} | {{ .Site.Title }}</title>
-      <link rel="shortcut icon" href="{{"/images/icon_logo/favicon-32x32.png" | relURL}}" type="image/x-icon" />
+      <!-- <link rel="shortcut icon" href="{{"/images/icon_logo/favicon-32x32.png" | relURL}}" type="image/x-icon" > -->
+
+      <link rel="apple-touch-icon" sizes="180x180" href="{{"/images/icon_logo/obmq/apple-touch-icon.png" | relURL}}">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{"/images/icon_logo/obmq/favicon-32x32.png"}}">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{"/images/icon_logo/obmq/favicon-16x16.png"}}">
+      <link rel="manifest" href="{{"/images/icon_logo/obmq/site.webmanifest" | relURL}}">
+      
       <link href="{{"css/font-awesome.min.css" | relURL}}" rel="stylesheet">
       <link href="{{"css/nucleus.css" | relURL}}" rel="stylesheet">
       <link href="{{"css/bootstrap.min.css" | relURL}}" rel="stylesheet">
